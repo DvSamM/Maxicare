@@ -1,0 +1,519 @@
+header{
+    background-color: #3B53A4;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+nav{
+    display: flex;  gap: 50px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bold; margin-left: 100px;
+}
+.main-header{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    justify-content: space-between;
+}
+.navlink{
+    padding-right: 90px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.maxi-img{
+    margin-left:90px ;
+}
+
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+ 
+  .dropdown-content {
+    /* position: absolute; */
+    background-color: #f1f1f1;
+    width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+    border: none;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+      pointer-events: none;
+  }
+
+  #section1{
+    background-image: url("image/pexels-olly-3768131.jpg");
+    background-size: cover;
+  }
+  
+  .prof>h1{
+    font-size:75px;
+    color: #3B53A4;
+    width: 700px;
+  }
+.prof{
+  margin-left: 100px;
+  padding-top: 250px;
+}
+  .prof>a>button{
+    /* color: #BDBDB1; */
+    color: #85775c;
+    margin-bottom: 100px; margin-top: 30px;
+  }
+  .detail{
+    background-color: #dbcfc2;
+    color: white; 
+    padding: 10px;  
+  }
+  .Acall{
+    display: inline-block;
+    padding: 0px 50px;
+  }
+  .provider{
+    display: inline-block;
+    padding: 0px 130px;
+  }
+ 
+  #section3{
+    background-color:#4285F4;
+    padding-bottom: 10px;
+    height: auto;
+    padding-top: 40px;
+    text-align: center;
+}
+.container{
+  display: grid;
+  margin-left: 150px;
+  grid-template-columns: repeat(5,1fr);
+}
+ .home{
+  width: 150px;
+  height: auto;
+  margin-top: 15px;
+  border-radius: 10px;
+ } 
+ .home p{
+  padding-top: 33px;
+ }
+ .nurse{
+  width: 150px;
+  height: auto;
+  margin-top: 15px;
+  border-radius: 10px;
+ } 
+ .nurse p{
+  padding-top: 33px;
+  padding-bottom: 13px;
+ }
+ 
+ .task{
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  text-align: center;
+ }
+ .task p{
+  padding-top: 25px;
+ }
+ .daily{
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  text-align: center;
+ }
+ .daily p{
+  padding-top: 25px;
+ }
+ .support{
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  text-align: center;
+ }
+ .support p{
+  padding-top: 12px;
+ }
+ .support img{
+  margin-top: -13px !important;
+ }
+.assist{
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.assist p{
+  padding-top: 19px;
+}
+.assis{
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.assis p{
+  padding-top: 22px;
+  padding-bottom: 30px;
+}
+
+.life{
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.life p{
+  padding-top: 19px;
+}
+.life img{
+  /* padding-top: -10px !important; */
+}
+.personal{
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.personal p{
+  padding-top: 20px;
+}
+
+#develop{
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+#develop img{
+  position: relative;
+  top: -13px;
+}
+#develop p{
+  position: relative;
+  top: -15px;
+}
+#develop a{
+  /* padding-top: -40px; */
+  position: relative;
+  top: -15px;
+}
+
+.carousel-caption{
+color: white;
+padding-left: 90px;
+/* margin-bottom: 90px; */
+/* margin-top: 50px !important; */
+}
+
+.carousel-item img{
+width: auto;
+margin-bottom: 30PX;
+}
+.caregiver{
+  justify-content: space-between;
+  padding: 100px;
+}
+.giver img{
+  border-radius: 30px;
+}
+.givertext{
+  margin-top: 80px;
+  margin-left: 90px;
+  font-size: 30px;
+}
+.givertext p{
+  width: 350px;
+}
+.help{
+  width: 450px;
+ 
+}
+
+.Best-Care{
+  background-color: #3B53A4; text-align: center; width: 900px; border-radius: 20px;  margin-left: 200px; height: 50vh;
+  z-index: 99;
+}
+
+.foot{
+  justify-content: space-evenly;
+  height: auto; 
+  display: flex !important;
+}
+.care{
+  border: none !important;
+}
+.serv{
+  border: none !important;
+}
+#section6{
+  margin-top: -50px !important;
+}
+
+.mxi{
+  text-align: center;
+  margin-top: 50px;
+  color: white !important;
+}
+
+.up{
+  position: sticky;
+  bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+  body,html{
+    overflow-x: hidden;
+  }
+    nav{
+    font-size: 12px;
+     gap: 30px;
+    /* align-items: center; */
+    justify-content: center; margin-left: 0px;
+    }
+    .navlink{
+        display: none;
+    }
+    .maxi-img{
+      margin-left:35px ; width: 150px;
+  }
+  .hamburg{
+     /* padding-left: 20PX; */
+  /* margin: 0px; */
+   display: flex;
+    align-items: center;
+    gap: 80px;
+
+    /* justify-content: space-between !important; */
+  } 
+  .offcanvas-body a{
+    display: block;
+    line-height: 60px;
+  }
+  .offcanvas-body a:hover{
+    background-color: #E2E3E5;
+  }
+
+  #offcanvasTop{
+    margin-top: 80px;
+    width: 100%;
+    height: 190vh;
+  }
+  .prof{
+    padding-top: 140px;
+    padding-left: 40px;
+    margin-left: 0px;
+  }
+  .prof>h1{
+    font-size: 35px;
+    color: #3B53A4;
+    width: 260px;
+  }
+  .prof>h4{
+    font-size: 20px !important;
+    width: 300px;
+  }
+
+  .nurse{
+    width: 150px;
+    height: auto;
+    margin-top: 27px;
+    border-radius: 10px;
+   } 
+  .prof>a>button{
+   display: flex;
+   flex-direction: row; margin: 20px 0px;
+  }
+  .prof>a{
+    text-decoration: none;
+  }
+
+  #section1{
+    background-image: url("image/pexels-olly-3768131.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #section2{
+      margin: 50px 45px !important; padding: 0px 0px !important;
+  }
+  .hello{
+    font-size: 40px !important;
+    width: 400px;
+  }
+  .ourWork{
+    width: 260px !important;
+}
+.ndisLogo{
+  display:none;
+}
+.logo2{
+  margin: 0px 0px;
+  padding: 15px;
+  width: 100%;
+}
+
+#section3{
+  width: 100%;
+  margin-left: 0px; 
+  margin-top: 40px;
+  padding-top: 40px;
+}
+.container{
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+ 
+}
+
+.carousel-caption{
+  color: white;
+  position: relative;
+  left: -50px;
+  /* padding-left: 90px; */
+  }
+  .How-we{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    padding: 0px 0px !important;
+  }
+  .help h5{
+    margin-top: 40px;
+  }
+  .help{
+    margin: 0px 0px !important;
+    padding: 0px 0px !important;
+    width: 100%;
+  }
+  .help p{
+    width: 20rem;
+    text-align: center;
+    margin: 0px 20px;
+    /* font-size: 12px; */
+    padding: 0px 0px;
+  }
+  .helpimg{
+    position: relative;
+    top: 490px;
+    /* width: 400px; */
+    left: -400px;
+  }
+  .Best-Care{
+    margin-top: 100px;
+    margin-left: auto;
+    height: auto;
+    padding-bottom: 90px;
+    width: auto;
+  }
+  .caregiver{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .givertext{
+    margin-top: 400px;
+    text-align: center !important;
+    margin-left: 0px !important;
+    display: block;
+    font-size: 30px;
+  }
+  .givertext p{
+      padding: 10px 0px 0px 0px;
+      justify-content: center;
+  }
+  .giver img{
+    border-radius: 50px; 
+      height: auto;
+      padding: 30px;
+      min-width: 100% !important;
+      
+  }
+
+.provider{
+  display: block;
+  padding: 10px 0px;
+}
+  
+
+  
+  .Best-Care h1{
+    font-size: 50px;
+  }
+
+  .foot{
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-left: 10px;
+  }
+  #section6{
+    height: auto;
+    /* padding-bottom: 50px; */
+    /* top: -90px; */
+  }
+  .mxi{
+    text-align: center;
+    font-size: 13px;
+    color: black !important;
+    margin-top: 10px;
+  }
+  .care{
+    margin-bottom: 50px;
+    border-bottom: 1px solid white;
+    width: 350px;
+  }
+  .serv{
+    border-bottom: 1px solid white;width: 350px;margin-bottom: 30px;
+  }
+  .indicators {
+    margin-top: -200px !important;
+  }
+  .up{
+    margin-left: 0px !important;
+    margin-top: -80px !important;
+  }
+
+@media screen and (max-width:320px){
+  .help p{
+    margin: 0px 0px;
+  }
+  .givertext p{
+    padding: 10px 0px 0px 20px;
+    width: 300px;
+    font-size: 23px;
+}
+.givertext{
+  margin-top: 430px;
+}
+}
