@@ -78,6 +78,9 @@ nav{
     color: white; 
     padding: 10px;  
   }
+  .ourWork{
+    width: 480px;
+  }
   .Acall{
     display: inline-block;
     padding: 0px 50px;
@@ -239,7 +242,8 @@ margin-bottom: 30PX;
   font-size: 30px;
 }
 .givertext p{
-  width: 350px;
+  width: 400px;
+
 }
 .help{
   width: 450px;
@@ -449,6 +453,7 @@ margin-bottom: 30PX;
   }
   .givertext p{
       padding: 10px 0px 0px 0px;
+      width: 100%;
       justify-content: center;
   }
   .giver img{
@@ -501,6 +506,7 @@ margin-bottom: 30PX;
   }
   .up{
     margin-left: 0px !important;
+    float: inline-end;
     margin-top: -80px !important;
   }
 
@@ -509,9 +515,9 @@ margin-bottom: 30PX;
     margin: 0px 0px;
   }
   .givertext p{
-    padding: 10px 0px 0px 20px;
-    width: 300px;
-    font-size: 23px;
+    /* padding: 10px 0px 0px 20px; */
+    /* width: 300px; */
+    /* font-size: 23px; */
 }
 .givertext{
   margin-top: 430px;
