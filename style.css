@@ -53,8 +53,16 @@ header{
       pointer-events: none;
   }
 
+
   #section1{
-    background-image: url("image/pexels-olly-3768131.jpg");
+    background-image: linear-gradient(
+      120deg,
+      rgba(132, 135, 283, 0) 10%,
+      #000442 80%
+    ),
+    url("image/ookkk.avif");
+
+    /* background-image: url("image/ookkk.avif"); */
     background-size: cover;
   }
   
@@ -334,7 +342,7 @@ margin-bottom: 30PX;
   .prof>h1{
     font-size: 35px;
     color: #3B53A4;
-    width: 260px;
+    width: 360px;
   }
   .prof>h4{
     font-size: 20px !important;
@@ -356,12 +364,21 @@ margin-bottom: 30PX;
   }
 
   #section1{
-    background-image: url("image/pexels-olly-3768131.jpg");
+    background-image: linear-gradient(
+      120deg,
+      rgba(132, 135, 283, 0) 10%,
+      #000442 80%
+    ),
+    url("image/ookkk.avif");
+
+
+    /* background-image: url("image/pexels-olly-3768131.jpg"); */
     background-size: cover;
     height: auto;
     padding-bottom: 40px;
     background-repeat: no-repeat;
   }
+
   #section2{
       margin: 50px 45px !important; padding: 0px 0px !important;
   }
