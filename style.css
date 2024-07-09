@@ -336,13 +336,15 @@ margin-bottom: 30PX;
   }
   .prof{
     padding-top: 140px;
-    padding-left: 40px;
+    padding-left: 30px;
     margin-left: 0px;
   }
   .prof>h1{
-    font-size: 35px;
+    font-size: 40px;
     color: #3B53A4;
-    width: 360px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 400px;
   }
   .prof>h4{
     font-size: 20px !important;
@@ -357,6 +359,7 @@ margin-bottom: 30PX;
    } 
   .prof>a>button{
    display: flex;
+   margin-top: 40px !important;
    flex-direction: row; margin: 20px 0px;
   }
   .prof>a{
@@ -375,7 +378,7 @@ margin-bottom: 30PX;
     /* background-image: url("image/pexels-olly-3768131.jpg"); */
     background-size: cover;
     height: auto;
-    padding-bottom: 40px;
+    padding-bottom: 150px;
     background-repeat: no-repeat;
   }
 
@@ -507,7 +510,8 @@ margin-bottom: 30PX;
     border-bottom: 1px solid white;width: 350px;margin-bottom: 30px;
   }
   .indicators {
-    margin-top: -200px !important;
+    margin-top: -60px !important;
+    float: inline-end;
   }
   .up{
     margin-left: 0px !important;
@@ -515,4 +519,94 @@ margin-bottom: 30PX;
     margin-top: -80px !important;
   }
 
+}
+
+@media screen and (max-width:375px){
+
+  .prof>h1{
+    font-size: 30px;
+    color: #3B53A4;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 300px;
+  }
+  .prof>h4{
+    font-size: 20px !important;
+    width: 300px;
+  }
+
+  .nurse{
+    width: 150px;
+    height: auto;
+    margin-top: 27px;
+    border-radius: 10px;
+   } 
+  .prof>a>button{
+   display: flex;
+   margin-top: 40px !important;
+   flex-direction: row; margin: 20px 0px;
+  }
+  .prof>a{
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width:390px){
+
+  .prof>h1{
+    font-size: 35px;
+    color: #3B53A4;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 370px;
+  }
+  .prof>h4{
+    font-size: 20px !important;
+    width: 300px;
+  }
+
+  .nurse{
+    width: 150px;
+    height: auto;
+    margin-top: 27px;
+    border-radius: 10px;
+   } 
+  .prof>a>button{
+   display: flex;
+   margin-top: 40px !important;
+   flex-direction: row; margin: 20px 0px;
+  }
+  .prof>a{
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width:320px){
+
+  .prof>h1{
+    font-size: 28px;
+    color: #3B53A4;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 280px;
+  }
+  .prof>h4{
+    font-size: 20px !important;
+    width: 300px;
+  }
+
+  .nurse{
+    width: 150px;
+    height: auto;
+    margin-top: 27px;
+    border-radius: 10px;
+   } 
+  .prof>a>button{
+   display: flex;
+   margin-top: 40px !important;
+   flex-direction: row; margin: 20px 0px;
+  }
+  .prof>a{
+    text-decoration: none;
+  }
 }
