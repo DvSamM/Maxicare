@@ -58,7 +58,7 @@ header{
     background-image: linear-gradient(
       120deg,
       rgba(132, 135, 283, 0) 10%,
-      #000442 80%
+      #000442 90%
     ),
     url("image/ookkk.avif");
 
@@ -241,6 +241,8 @@ margin-bottom: 30PX;
 }
 .giver img{
   border-radius: 30px;
+  margin-top: 30px;
+  width: 90%;
 }
 .givertext{
   margin-top: 80px;
@@ -370,7 +372,7 @@ margin-bottom: 30PX;
     background-image: linear-gradient(
       120deg,
       rgba(132, 135, 283, 0) 10%,
-      #000442 80%
+      #000442 100%
     ),
     url("image/ookkk.avif");
 
@@ -582,7 +584,9 @@ margin-bottom: 30PX;
 }
 
 @media screen and (max-width:320px){
-
+  #section2{
+    margin: 50px 30px !important;
+  }
   .prof>h1{
     font-size: 28px;
     color: #3B53A4;
@@ -610,3 +614,8 @@ margin-bottom: 30PX;
     text-decoration: none;
   }
 }
+/* @media screen and (max-width:414px){
+  #section2{
+    margin: 50px 65px !important;
+  }
+} */
