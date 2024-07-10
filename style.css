@@ -314,15 +314,7 @@ margin-bottom: 30PX;
        width: 150px;
         margin-left: 0px;
   }
-  .hamburg{
-     /* padding-left: 20PX; */
-  /* margin: 0px; */
-   display: flex;
-    align-items: center;
-    gap: 80px;
 
-    /* justify-content: space-between !important; */
-  } 
   .offcanvas-body a{
     display: block;
     line-height: 60px;
@@ -593,6 +585,272 @@ margin-bottom: 30PX;
     padding-top: 50px;
     padding-bottom: 30px;
     width: 280px;
+  }
+  .prof>h4{
+    font-size: 20px !important;
+    width: 300px;
+  }
+
+  .nurse{
+    width: 150px;
+    height: auto;
+    margin-top: 27px;
+    border-radius: 10px;
+   } 
+  .prof>a>button{
+   display: flex;
+   margin-top: 40px !important;
+   flex-direction: row; margin: 20px 0px;
+  }
+  .prof>a{
+    text-decoration: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:876px){
+  body,html{
+    overflow-x: hidden;
+  }
+    nav{
+    font-size: 12px;
+     gap: 30px;
+    /* align-items: center; */
+    justify-content: center; margin-left: 0px;
+    }
+    .navlink{
+        display: none;
+    }
+    .maxi-img{
+       width: 150px;
+        margin-left: 0px;
+  }
+  .hamburg{
+     /* padding-left: 20PX; */
+  /* margin: 0px; */
+   display: flex;
+    align-items: center;
+    gap: 80px;
+
+    /* justify-content: space-between !important; */
+  } 
+  .offcanvas-body a{
+    display: block;
+    line-height: 60px;
+  }
+  .offcanvas-body a:hover{
+    background-color: #E2E3E5;
+  }
+
+  #offcanvasTop{
+    margin-top: 80px;
+    width: 100%;
+    height: 190vh;
+  }
+  .prof{
+    padding-top: 140px;
+    padding-left: 30px;
+    margin-left: 0px;
+  }
+  .prof>h1{
+    font-size: 40px;
+    color: #3B53A4;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 400px;
+  }
+  .prof>h4{
+    font-size: 20px !important;
+    width: 300px;
+  }
+
+  .nurse{
+    width: 150px;
+    height: auto;
+    margin-top: 27px;
+    border-radius: 10px;
+   } 
+  .prof>a>button{
+   display: flex;
+   margin-top: 40px !important;
+   flex-direction: row; margin: 20px 0px;
+  }
+  .prof>a{
+    text-decoration: none;
+  }
+
+  #section1{
+    background-image: linear-gradient(
+      120deg,
+      rgba(132, 135, 283, 0) 10%,
+      #000442 100%
+    ),
+    url("image/ookkk.avif");
+
+
+    /* background-image: url("image/pexels-olly-3768131.jpg"); */
+    background-size: cover;
+    height: auto;
+    padding-bottom: 150px;
+    background-repeat: no-repeat;
+  }
+
+  #section2{
+      margin: 50px 45px !important; padding: 0px 0px !important;
+  }
+  #section2 h1{
+      font-size: 35px !important;
+  }
+  .accordion-item{
+    width: 100% !important;
+    margin: 0px 0px !important
+  }
+
+  .hello{
+    font-size: 40px !important;
+    width: 400px;
+  }
+  .ourWork{
+    width: 260px !important;
+}
+.ndisLogo{
+  display:none;
+}
+.logo2{
+  margin: 0px 0px;
+  padding: 15px;
+  width: 100%;
+}
+
+#section3{
+  width: 100%;
+  margin-left: 0px; 
+  margin-top: 40px;
+  padding-top: 40px;
+}
+.container{
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+ 
+}
+
+.carousel-caption{
+  color: white;
+  position: relative;
+  left: -50px;
+  /* padding-left: 90px; */
+  }
+  .How-we{
+  
+    display: block !important;
+    margin: 0px 0px;
+    padding: 0px 0px !important;
+  }
+
+  .helpimg{
+   margin-top: 30px;
+   width: 100%;
+  }
+  .Best-Care{
+    margin-top: 100px;
+    margin-left: auto;
+    height: auto;
+    padding-bottom: 90px;
+    width: auto;
+  }
+  .caregiver{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .givertext{
+    text-align: center !important;
+    margin-left: 0px !important;
+    display: block;
+    font-size: 30px;
+  }
+  .givertext p{
+      padding: 10px 0px 0px 0px;
+      width: 100%;
+      justify-content: center;
+  }
+  .giver img{
+    border-radius: 50px; 
+      height: auto;
+      padding: 30px;
+      min-width: 100% !important;
+      
+  }
+
+.provider{
+  display: block;
+  padding: 10px 0px;
+}
+  
+
+  
+  .Best-Care h1{
+    font-size: 50px;
+  }
+
+  .foot{
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    background-color: rgb(18, 18, 38) !important;
+    padding-left: 10px;
+  }
+  #section6{
+    height: auto;
+  
+  }
+  .mxi{
+    text-align: center;
+    font-size: 13px;
+    color: white !important;
+    margin-top: 10px;
+  }
+  .care{
+    margin-bottom: 50px;
+    border-bottom: 1px solid white;
+    width: 350px;
+  }
+  .serv{
+    border-bottom: 1px solid white;width: 350px;margin-bottom: 30px;
+  }
+  .indicators {
+    margin-top: -60px !important;
+    float: inline-end;
+  }
+  .up{
+    margin-left: 0px !important;
+    float: inline-end;
+    margin-top: -80px !important;
+  }
+
+}
+
+@media screen and (max-width:375px){
+
+  .prof>h1{
+    font-size: 30px;
+    color: #3B53A4;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 300px;
   }
   .prof>h4{
     font-size: 20px !important;
