@@ -10,7 +10,7 @@ header{
     display: flex;
     align-items: center;
     padding: 0px;
-    gap: 200px;
+    gap: 100px;
     justify-content: space-around;
 }
 .navlink{
@@ -106,7 +106,7 @@ header{
 }
 .container{
   display: grid;
-  margin-left: 150px;
+  /* margin-left: 150px; */
   grid-template-columns: repeat(5,1fr) !important;
 }
  .home{
@@ -259,8 +259,12 @@ margin-bottom: 30PX;
 }
 
 .Best-Care{
-  background-color: #3B53A4; text-align: center; width: 900px; border-radius: 20px;  margin-left: 200px; height: 50vh;
-  z-index: 99;
+  background-color: #3B53A4;
+   text-align: center; 
+   width: 900px;
+    border-radius: 20px; 
+     /* margin-left: 200px;  */
+     height: 50vh;
 }
 
 .foot{
@@ -304,7 +308,7 @@ margin-bottom: 30PX;
 
 
 
-@media screen and (max-width:576px){
+@media screen and (max-width:480px){
   body,html{
     overflow-x: hidden;
   }
@@ -620,19 +624,35 @@ margin-bottom: 30PX;
 
 
 
+@media screen and (min-width:1024px) {
+
+  body,html{
+    overflow-x: hidden !important;
+  }
+  .navlink{
+    /* display: block !important; */
+    /* display: block; */
+    display: inline-block !important;
+    padding: 0px 0px;
+    display: flex;
+    gap: 0px;
+  }
+
+}
 
 
-
-@media only screen and (max-width:876px){
+@media screen and (max-width:913px){
   body,html{
     overflow-x: hidden;
   }
+  
     nav{
     font-size: 12px;
      gap: 30px;
     /* align-items: center; */
     justify-content: center; margin-left: 0px;
     }
+
     .navlink{
         display: none;
     }
@@ -664,11 +684,11 @@ margin-bottom: 30PX;
     color: #3B53A4;
     padding-top: 50px;
     padding-bottom: 30px;
-    width: 400px;
+    width: 100%;
   }
   .prof>h4{
     font-size: 20px !important;
-    width: 300px;
+    width: 100%;
   }
 
   .nurse{
@@ -708,6 +728,7 @@ margin-bottom: 30PX;
   #section2 h1{
       font-size: 35px !important;
   }
+  
   .accordion-item{
     width: 100% !important;
     margin: 0px 0px !important
@@ -737,10 +758,11 @@ margin-bottom: 30PX;
   margin-right: auto;
   display: flex;
   flex-direction: column;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr !important; */
   justify-content: center;
   align-items: center;
   margin-left: 0px;
- 
 }
 
 .carousel-caption{
