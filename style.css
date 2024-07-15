@@ -1,17 +1,12 @@
-header{
-    background-color: #3B53A4;
-    color: white;
-    position: fixed;
-    width: 100%;
-    z-index: 99;
-}
+
 
 .main-header{
-    display: flex;
-    align-items: center;
-    padding: 0px;
-    gap: 100px;
-    justify-content: space-around;
+  position: relative !important;
+  display: flex !important;
+  flex: wrap !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
 }
 .navlink{
     padding-right: 90px;
@@ -306,10 +301,17 @@ margin-bottom: 30PX;
 
 
 
-
+@media screen and (max-width:540px) {
+  .maxi-img{
+    margin-left: 30px !important;
+  }
+}
 
 
 @media screen and (max-width:480px){
+
+  
+
   body,html{
     overflow-x: hidden;
   }
@@ -323,9 +325,18 @@ margin-bottom: 30PX;
         display: none;
     }
     .maxi-img{
-       width: 150px;
-        margin-left: 0px;
+       width: 150px !important;
+        margin-left: 20px !important;
   }
+  
+  .main-header{
+    position: relative !important;
+    display: flex !important;
+    flex: wrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
 
   .offcanvas-body a{
     display: block;
@@ -336,11 +347,12 @@ margin-bottom: 30PX;
   }
 
   #offcanvasTop{
-    margin-top: 80px;
-    width: 100%;
-    height: 190vh;
+    margin-top: 40px !important;
+    /* width:  !important; */
+    height: auto !important;
+    padding-bottom: 10px !important;
   }
-  .prof{
+  .prof{ 
     padding-top: 140px;
     padding-left: 30px;
     margin-left: 0px;
@@ -545,6 +557,18 @@ margin-bottom: 30PX;
     grid-template-columns: 1fr 1fr 1fr !important;
     margin: 0px auto !important;
   }
+  .main-header{
+     position: relative !important;
+  display: flex !important;
+  flex: wrap !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  }
+  .maxi-img{
+    width: 150px !important;
+    margin-left: 30px !important;
+  }
+
 }
 
 @media screen and (min-width:768px) {
@@ -561,6 +585,15 @@ margin-bottom: 30PX;
     grid-template-columns: 1fr 1fr 1fr 1fr!important;
   margin: 0px auto !important;
   }
+
+  .main-header{
+    position: relative !important;
+    display: flex !important;
+    flex: wrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
 }
 
 @media screen and (min-width:991px) {
@@ -575,7 +608,17 @@ margin-bottom: 30PX;
   .ham{
     display: none;
   }
+
+  .main-header{
+    position: relative !important;
+    display: flex !important;
+    flex: wrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
 }
+
 
 
 
@@ -588,12 +631,13 @@ margin-bottom: 30PX;
     overflow-x: hidden;
   }
   
-    nav{
-    font-size: 12px;
-     gap: 30px;
-    /* align-items: center; */
-    justify-content: center; margin-left: 0px;
-    }
+  .main-header{
+    position: relative !important;
+    display: flex !important;
+    flex: wrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
 
     .navlink{
         display: none;
@@ -824,6 +868,14 @@ margin-bottom: 30PX;
     width: 300px;
   }
 
+  .main-header{
+    position: relative !important;
+    display: flex !important;
+    flex: wrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
   .nurse{
     width: 150px;
     height: auto;
@@ -848,6 +900,14 @@ margin-bottom: 30PX;
     padding-top: 50px;
     padding-bottom: 30px;
     width: 370px;
+  }
+
+  .main-header{
+    position: relative !important;
+    display: flex !important;
+    flex: wrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
   }
   .prof>h4{
     font-size: 20px !important;
@@ -884,6 +944,14 @@ margin-bottom: 30PX;
   .prof>h4{
     font-size: 20px !important;
     width: 300px;
+  }
+
+  .main-header{
+    position: relative !important;
+    display: flex !important;
+    flex: wrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
   }
 
   .nurse{
