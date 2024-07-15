@@ -236,7 +236,7 @@ width: auto;
 margin-bottom: 30PX;
 }
 .caregiver{
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 100px;
 }
 .giver img{
@@ -264,7 +264,8 @@ margin-bottom: 30PX;
    width: 900px;
     border-radius: 20px; 
      /* margin-left: 200px;  */
-     height: 50vh;
+     height: auto;
+     padding-bottom: 190px;
 }
 
 .foot{
@@ -537,22 +538,7 @@ margin-bottom: 30PX;
 
 
 
-/* @media screen and (min-width:850px) {
 
-  body,html{
-    overflow-x: hidden !important;
-  }
-  .navlink{
-    display: inline-block !important;
-    padding: 0px 0px;
-    display: flex;
-    gap: 0px;
-  }
-  .ham{
-    display: none;
-  }
-
-} */
 @media screen and (min-width: 600px) {
   .container{
     display: grid !important;
